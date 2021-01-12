@@ -1,0 +1,51 @@
+/* index.html starts */
+.logo img{
+    height: 4.5em;
+    width: auto;
+    vertical-align: middle;
+    border-style: none;
+  }
+  .logo{
+    margin: auto;
+  }
+  /* css-doodle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  } */
+  
+  .foot {
+    
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+  }
+  .head{
+    background-color: black;
+  }
+  .text{
+    color: white;
+  }
+ .join_button{
+   border-left: 10px;
+ }
+ .doodle{
+   height: 1000px;
+   width: auto;
+   background-color: black;
+ }
+ 
+ /* index.html ends */
+
+ /* our team.html starts */
+ .faculty{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hover_opacity:hover{
+      opacity: 0.8;
+  }
+ /* our team.html ends */
