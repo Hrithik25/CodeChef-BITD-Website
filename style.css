@@ -1,51 +1,101 @@
 /* index.html starts */
-.logo img{
-    height: 4.5em;
-    width: auto;
-    vertical-align: middle;
-    border-style: none;
-  }
-  .logo{
-    margin: auto;
-  }
-  /* css-doodle {
+.logo img {
+  height: 4.5em;
+  width: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.logo {
+  margin: auto;
+}
+/* css-doodle {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 0;
   } */
-  
-  .foot {
-    
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
-  }
-  .head{
-    background-color: black;
-  }
-  .text{
-    color: white;
-  }
- .join_button{
-   border-left: 10px;
- }
- .doodle{
-   height: 1000px;
-   width: auto;
-   background-color: black;
- }
- 
- /* index.html ends */
 
- /* our team.html starts */
- .faculty{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .hover_opacity:hover{
-      opacity: 0.8;
-  }
- /* our team.html ends */
+.foot {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.head {
+  background-color: black;
+}
+
+.text {
+  color: white;
+}
+.text1 {
+  color: grey;
+}
+.text1:hover {
+  color: white !important;
+  font-size: large;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.text2 {
+  color: #282828;
+}
+.text2:hover {
+  color: black !important;
+  font-size: large;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.join_button {
+  border-left: 10px;
+}
+.doodle {
+  height: 1000px;
+  width: auto;
+  background-color: black;
+}
+
+/* index.html ends */
+
+/* our team.html starts */
+.faculty {
+  margin-left: auto;
+  margin-right: auto;
+}
+.hover_opacity:hover {
+  opacity: 0.8;
+}
+/* our team.html ends */
+.footer {
+  background-color: black;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+}
+.footer .link {
+  color: white;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer-header .img {
+  justify-content: center;
+}
+.social-links {
+  padding: 1rem;
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.footer.img {
+  align-items: center;
+}
