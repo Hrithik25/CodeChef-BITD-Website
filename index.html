@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/css-doodle@0.13.4/css-doodle.min.js"></script>
     <title>Home || CodeChef-BITD</title>
-    <link rel = "icon" href = "img/CodeChef BITD Logo.png" type = "image/x-icon">
-    <link rel="stylesheet" href="style.css">
-
-    
-    
-
-</head>
-
-  <div id="content">
+    <link rel="icon" href="img/CodeChef BITD Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/39a2e6bad9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- stylesheet begins -->
+    <style></style>
+    <!-- stylesheet ends -->
+  </head>
+  <body>
     <!-- header starts -->
     <header class="head text-gray-600 body-font">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a class="text mr-5 hover:text-gray-900">Home</a>
-          <a href="Events.html" class="text mr-5 hover:text-gray-900">Events</a>
-          <a href="our team.html" class="text mr-5 hover:text-gray-900">Our Team</a>
-          
+          <a href="./index.html" style="color: white" class="text1 m-5">Home</a>
+          <a href="Events.html" class="text1 m-5">Events</a>
+          <a href="our team.html" class="text1 m-5">Our Team</a>
         </nav>
 
-        <a  class="logo flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-          <img  src="img/Copy of College Chapters Logo - _Medium Name_.svg" alt="CodeChef BITD Logo">
+        <a
+          class="logo flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0"
+        >
+          <img
+            src="img/Copy of College Chapters Logo - _Medium Name_.svg"
+            alt="CodeChef BITD Logo"
+          />
           <span class="text logo_text ml-3 text-xl">CodeChef BITD Chapter</span>
         </a>
 
-        <div class="join_button lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <a  href="join.html">
-            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Become a Member
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+        <div
+          class="join_button lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0"
+        >
+          <a href="join.html">
+            <button
+              id="button1"
+              class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+            >
+              Become a Member
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
           </a>
         </div>
       </div>
     </header>
     <!-- header ends -->
 
-      <!-- css doodle starts -->
-       <!-- <css-doodle>
+    <!-- css doodle starts -->
+    <!-- <css-doodle>
         :doodle {
           @grid: 18 / 100vmax;
           background: #0a0c27;
@@ -67,80 +92,50 @@
         
         
       </css-doodle> -->
-      <css-doodle style=z-index: -1 class="doodle">
-        :doodle {
-          @grid: 18 / 100vmax;
-          background: #0a0c27;
-        }
-        :doodle(:hover) { --s: 1 }
-        --hue: calc(180 + 1.5 * @row * @col);
-        background: hsl(var(--hue), 50%, 70%);
-        margin: -.5px;
-        transition: @r(.5s) ease;
-        clip-path: polygon(@pick(
-          '0 0, 100% 0, 100% 100%',
-          '0 0, 100% 0, 0 100%',
-          '0 0, 100% 100%, 0 100%',
-          '100% 0, 100% 100%, 0 100%'
-        ));
-        will-change: transform;
-        transition: .1s cubic-bezier(.175, .885, .32, 1.275);
-        transition-delay: @rand(500ms);
-        transform: translateY(calc(var(--s) * 100%));
-      </css-doodle>
-      <!-- css doodle ends --> 
-
-      
-
-      <!-- footer starts -->
-      <footer class="foot text-gray-600 body-font">
-        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-
-          <a  class="logo flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-            <img  src="img/Copy of College Chapters Logo - _Medium Name_.svg" alt="CodeChef BITD Logo">
-            <span class="logo_text ml-3 text-xl">CodeChef BIT Deoghar Chapter</span>
-          </a>
-
-          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Tailblocks —
-            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
-          </p>
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <!-- facebook icon starts  -->
-            <a class="text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <!-- facebook icon ends  -->
-            <!-- twitter icon starts  -->
-            <a class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <!-- twitter icon ends  -->
-            <!-- Instagram icon starts -->
-            <a href="https://www.instagram.com/codechef.bitd/" target="_blank" class="ml-3 text-gray-500"> 
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-            <!-- Instagram icon ends -->
-
-            <!-- LinkedIn icon starts -->
-            <a class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
-            </a>
-            <!-- LinkedIn icon starts -->
-          </span>
-        </div>
-      </footer>
-      <!-- footer ends -->
-</div>
-    
-</body>
+    <css-doodle style="z-index: -1" class="doodle">
+      :doodle { @grid: 18 / 100vmax; background: #0a0c27; } :doodle(:hover) {
+      --s: 1 } --hue: calc(180 + 1.5 * @row * @col); background: hsl(var(--hue),
+      50%, 70%); margin: -.5px; transition: @r(.5s) ease; clip-path:
+      polygon(@pick( '0 0, 100% 0, 100% 100%', '0 0, 100% 0, 0 100%', '0 0, 100%
+      100%, 0 100%', '100% 0, 100% 100%, 0 100%' )); will-change: transform;
+      transition: .1s cubic-bezier(.175, .885, .32, 1.275); transition-delay:
+      @rand(500ms); transform: translateY(calc(var(--s) * 100%));
+    </css-doodle>
+    <!-- css doodle ends -->
+    <!-- footer starts -->
+    <footer class="footer">
+      <div class="footer-header">
+        <img
+          src="img/Copy of College Chapters Logo - _Medium Name_.svg"
+          alt="CodeChef BITD Logo"
+          style="
+            max-width: 150px;
+            display: block;
+            margin: auto;
+            height: 100%;
+            padding-bottom: 1rem;
+          "
+        />
+        <span>Codechef BITD Chapter</span>
+      </div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="#"
+            ><i class="fab fa-facebook-f" style="font-size: 24px"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="#"
+            ><i class="fab fa-instagram" style="font-size: 24px"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="#"
+            ><i class="fab fa-linkedin-in" style="font-size: 24px"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- footer ends -->
+  </body>
 </html>
