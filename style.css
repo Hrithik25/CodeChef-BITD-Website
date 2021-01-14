@@ -58,7 +58,7 @@
 
 /* index.html ends */
 
-/* our team.html starts */
+/* team.html starts */
 .faculty {
   margin-left: auto;
   margin-right: auto;
@@ -66,7 +66,11 @@
 .hover_opacity:hover {
   opacity: 0.8;
 }
-/* our team.html ends */
+.banner{
+  background-image: url("https://dummyimage.com/2601x1361")
+  
+}
+/* team.html ends */
 .footer {
   background-color: black;
   padding: 2rem 1rem;
@@ -99,3 +103,4 @@
 .footer.img {
   align-items: center;
 }
+
