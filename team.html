@@ -9,7 +9,8 @@
     <script src="https://kit.fontawesome.com/39a2e6bad9.js" crossorigin="anonymous" ></script>
     <title>Our Team || CodeChef-BITD</title>
 </head>
-<body>
+<body onload="myFunction()">
+  <div class="preloader"></div>
     <!-- header starts -->
     <header class="head text-gray-600 body-font">
         <div
@@ -1053,5 +1054,14 @@
     </ul>
   </footer>
   <!-- footer ends -->
+
+  <script>
+    var pre = document.getElementsByClassName('preloader');
+    function myFunction()
+    {
+      pre.style.display = 'none';
+    }
+  </script>
+
 </body>
 </html>

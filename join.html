@@ -14,8 +14,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
-  <body>
+  <body onload="myFunction()">
+    <div class="preloader"></div>
     <!-- header starts -->
     <header class="text-gray-600 body-font">
       <div
@@ -172,5 +174,13 @@
       </ul>
     </footer>
     <!-- footer ends -->
+
+    <script>
+      var pre = document.getElementsByClassName('preloader');
+      function myFunction()
+      {
+        pre.style.display = 'none';
+      }
+    </script>
   </body>
 </html>
