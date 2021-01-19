@@ -15,7 +15,23 @@
     width: 100%;
     z-index: 0;
   } */
-
+.text__line {
+  font-size: large;
+  color: black;
+  font-weight: 500;
+}
+.img__logo {
+  width: 250px;
+  height: 120px;
+}
+.image_box {
+  height: 400px;
+  width: 400px;
+}
+.image_box:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.1) !important;
+}
 .foot {
   left: 0;
   bottom: 0;
@@ -25,7 +41,6 @@
 .head {
   background-color: black;
 }
-
 .text {
   color: white;
 }
