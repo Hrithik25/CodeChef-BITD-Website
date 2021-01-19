@@ -15,7 +15,8 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body onload="myFunction()">
+    <div class="preloader"></div>
     <!-- header starts -->
     <header class="text-gray-600 body-font">
       <div
@@ -24,7 +25,7 @@
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <a href="./index.html" class="text2 m-5">Home</a>
           <a href="Events.html" class="text2 m-5">Events</a>
-          <a href="our team.html" class="text2 m-5">Our Team</a>
+          <a href="team.html" class="text2 m-5">Our Team</a>
         </nav>
 
         <a id="logo">
@@ -144,5 +145,13 @@
         </li>
       </ul>
     </footer>
+
+    <script>
+      var pre = document.getElementsByClassName('preloader');
+      function myFunction()
+      {
+        pre.style.display = 'none';
+      }
+    </script>
   </body>
 </html>

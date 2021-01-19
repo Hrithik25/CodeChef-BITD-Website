@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #preloader{
+            width: 100%;
+            height: 100vh;
+            background: white url("https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-6d0b072c3d3f.gif") no-repeat center;
+            position: fixed;
+            z-index: 999;
+        }
+        #content{
+            display: none;
+        }
+    </style>
+</head>
+<body onload="myFunction()">
+    <div id="preloader"></div>
+    <div id="content">
+       <img src="https://wallpaperaccess.com/full/327366.jpg" alt="">
+       <img src="https://wallpaperaccess.com/full/327386.jpg" alt="">
+       <img src="https://wallpaperaccess.com/full/550113.jpg" alt="">
+    </div>
+
+    <script>
+        var pre_loader = document.getElementById('preloader');
+        var cont = document.getElementById('content');
+        function myFunction()
+        {
+            pre_loader.style.display = 'none';
+            cont.style.display = 'block';
+
+        }
+    </script>
+</body>
+</html>

@@ -73,7 +73,7 @@
 
 /* index.html ends */
 
-/* our team.html starts */
+/* team.html starts */
 .faculty {
   margin-left: auto;
   margin-right: auto;
@@ -81,7 +81,11 @@
 .hover_opacity:hover {
   opacity: 0.8;
 }
-/* our team.html ends */
+.banner{
+  
+  
+}
+/* team.html ends */
 .footer {
   background-color: black;
   padding: 2rem 1rem;
@@ -113,4 +117,12 @@
 }
 .footer.img {
   align-items: center;
+}
+
+.preloader{
+  width: 100%;
+            height: 100vh;
+            background: white url("https://i.pinimg.com/originals/65/ba/48/65ba488626025cff82f091336fbf94bb.gif") no-repeat center;
+            position: fixed;
+            z-index: 999;
 }
